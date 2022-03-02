@@ -32,7 +32,7 @@ const Result = ({quote}) => {
     <Container>
         <Image src={`https://cryptocompare.com/${quote.image}`} alt="Cryto Symbol" />
         <div>
-            <Heading>El precio es: <Span>{quote.price}</Span> </Heading>
+            <Heading>The Price is: <Span>{quote.price}</Span> </Heading>
             <p>Highest price of the day: <Span>{quote.high}</Span> </p>
             <p>Lowest price of the day: <Span>{quote.low}</Span> </p>
             <p>Last 24 hours fluctuation: <Span>{quote.changePercentage}</Span> </p>
